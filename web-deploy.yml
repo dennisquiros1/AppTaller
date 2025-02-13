@@ -26,6 +26,6 @@ steps:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Azure subscription 1(f5346de4-af56-4396-a0e4-188bce1d0bcb)'
     appType: 'webAppLinux'
-    WebAppName: 'apptaller'
+    WebAppName: 'AppTaller2'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
     DeploymentTypeLinux: 'oneDeploy'
