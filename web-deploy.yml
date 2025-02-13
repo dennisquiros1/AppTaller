@@ -3,7 +3,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: my_agent_pool
 
 steps:
 - task: DotNetCoreCLI@2
